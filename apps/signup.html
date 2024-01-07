@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.5.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <body>
+    </head>
+    <div class="navbar bg-sky-500">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-2xl text-white">Tasktracker</a>
+        </div>
+        <div class="flex-none gap-2">
+          <div class="form-control">
+            <a class="btn btn-ghost text-xl text-white">Login</a>
+          </div>
+          <div class="dropdown dropdown-end">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+              <div class="w-10 rounded-full">
+                <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+              </div>
+            </div>
+            <ul tabindex="0" class="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+              <li>
+                <a class="justify-between">
+                  Profile
+                </a>
+              </li>
+              <li><a>Settings</a></li>
+              <li><a>Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- form started -->
+      <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Register now!</h1>
+            <p class="py-6">Turning your to-do list into a 'ta-da' list. Because conquering tasks should feel like a victory parade, not a never-ending marathon.</p>
+          </div>
+          <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" id="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" placeholder="password" id="pass" class="input input-bordered" required />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <button type="submit" class="btn btn-ghost bg-sky-500 text-white">Resgister</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- form ended -->
+
+
+
+    <script type="module" src="../scripts/signup.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
