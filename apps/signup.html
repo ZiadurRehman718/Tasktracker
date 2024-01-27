@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- navbar started -->
+    <div class="navbar bg-sky-500">
+        <a class="btn btn-ghost text-white text-2xl ml-2">Tasktracker</a>
+    </div>
+    <!-- navbar ended -->
+
+    <!-- form started -->
+    <div class="hero min-h-screen bg-base-200">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <div class="text-center lg:text-left">
+            <h1 class="text-5xl font-bold">Sign Up now!</h1>
+            <p class="py-6">Your personal productivity sidekick. Navigate the chaos of tasks effortlessly, turning your daily grind into a triumph. It's not just about managing, it's about mastering your moments!</p>
+          </div>
+          <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <form class="card-body">
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Email</span>
+                </label>
+                <input type="email" placeholder="email" class="input input-bordered" required />
+              </div>
+              <div class="form-control">
+                <label class="label">
+                  <span class="label-text">Password</span>
+                </label>
+                <input type="password" placeholder="password" class="input input-bordered" required />
+                <label class="label">
+                  <a href="#" class="label-text-alt link link-hover">Already have an account!</a>
+                </label>
+              </div>
+              <div class="form-control mt-6">
+                <button class="btn bg-sky-500 text-white">Signup</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    <!-- form ended -->
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="../scripts/signup.js"></script>
+</body>
+</html>
