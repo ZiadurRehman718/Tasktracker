@@ -11,5 +11,5 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebas
     measurementId: "G-9QFGPQV9HV"
   };
 
-  const app = initializeApp(firebaseConfig);
-  const auth = getAuth(app);
+  export const app = initializeApp(firebaseConfig);
+  export const auth = getAuth(app);

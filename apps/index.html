@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- navbar started -->
+    <div class="navbar bg-sky-500">
+        <div class="flex-1">
+          <a class="btn btn-ghost text-2xl text-white">Tasktracker</a>
+        </div>
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1 text-white text-md">
+            <li>
+              <details>
+                <summary>
+                  Settings
+                </summary>
+                <ul class="p-2 bg-base-100 rounded-t-none bg-sky-700">
+                  <li><a>Profile</a></li>
+                  <li><a>Logout</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <!-- navbar ended -->
+
+    <h1 class="text-5xl text-center mt-10">Note Todo's</h1>
+
+    <!-- input-field started -->
+    <div class="text-center mt-10">
+    <input type="text" placeholder="Enter your task" class="input input-bordered input-info w-full max-w-xs" />
+    </div>
+    <!-- input-field ended -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="../scripts/index.js"></script>
+</body>
+</html>
